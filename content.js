@@ -6,8 +6,7 @@ function hideImages() {
             var images = document.getElementsByTagName('img');
             for (var element in images) {
                 if (images[element].classList != undefined) {
-                    // images[element].parentNode.classList.add("imageHover");
-                    images[element].parentNode.parentNode.classList.add("imageHover");
+                    images[element].parentNode.classList.add("imageHover");
                 }
             };
         }
